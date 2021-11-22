@@ -1,0 +1,107 @@
+.comportable {
+    width: 100%;
+    background: #6F764D;
+    z-index: 2;
+    margin-top: -3px;
+}
+.comportable__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comportable__heading {
+    margin-top: 263px;
+    margin-bottom: 273px;
+}
+.comportable__title {
+    font-family: 'Rammetto One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 109.1%;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+.comportable__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #EDEDED;
+}
+.comportable__blog {
+    display: flex;
+}
+.comportable__blog-item {
+    width: 276px;
+    height: 436px; 
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0px 25px;
+    transition: 0.3s;
+}
+.comportable__blog-item:hover {
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    background: #6b743e;
+}
+.comportable__blog-img {
+    margin-top: 47px;
+    margin-bottom: 27px;
+}
+.comportable__blog-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 109.1%;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+.comportable__blog-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 30px;
+}
+.comportable__blog-arrow {
+    display: block;
+}
+.comportable__blog-item_background {
+    width: 276px;
+    height: 436px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 45px;
+    transition: 0.3s;
+}
+.comportable__blog-item_background:hover {
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    background: #EDEDED;
+}
+.comportable__blog-img_background {
+    margin-top: 47px;
+    margin-bottom: 27px;
+}
+.comportable__blog-title_background {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 109.1%;
+    color: #000000;
+    margin-bottom: 21px;
+}
+.comportable__blog-text_background {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: justify;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}
+.comportable__blog-arrow_background {
+    display: block;
+}
