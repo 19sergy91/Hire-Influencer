@@ -8,10 +8,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 1139px) {
+        justify-content: space-evenly;
+    }
+    @media (max-width: 799px) {
+        flex-direction: column;
+    }
 }
 .comportable__heading {
     margin-top: 263px;
     margin-bottom: 273px;
+    padding-right: 15px;
+    @media (max-width: 1139px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0px 15px 0px 0px;
+    }
+    @media (max-width: 799px) {
+        text-align: center;
+        padding: 0;
+    }
 }
 .comportable__title {
     font-family: 'Rammetto One', cursive;
@@ -20,15 +36,33 @@
     line-height: 109.1%;
     color: #FFFFFF;
     margin-bottom: 17px;
+    @media (max-width: 1139px) {
+        font-size: 30px;
+    }
+    @media (max-width: 549px) {
+        font-size: 7vw;
+    }
 }
 .comportable__text {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     color: #EDEDED;
+    @media (max-width: 1139px) {
+        font-size: 12px;
+    }
+    @media (max-width: 549px) {
+        font-size: 2.5vw;
+    }
 }
 .comportable__blog {
     display: flex;
+    @media (max-width: 1139px) {
+        padding: 50px 0px;
+    }
+    @media (max-width: 799px) {
+        padding: 0px 0px 50px 0px;
+    }
 }
 .comportable__blog-item {
     width: 276px;
@@ -38,16 +72,33 @@
     border-radius: 10px;
     padding: 0px 25px;
     transition: 0.3s;
+    @media (max-width: 1139px) {
+        width: 230px;
+        height: 330px;
+        padding: 0px 15px;
+    }
+    @media (max-width: 549px) {
+        width: 100%;
+        height: 320px;
+    }
 }
 .comportable__blog-item:hover {
     box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
-    background: #6b743e;
+    background: #5d6920;
 }
 .comportable__blog-img {
     margin-top: 47px;
     margin-bottom: 27px;
+    @media (max-width: 1139px) {
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    @media (max-width: 549px) {
+        width: 30px;
+    }
 }
 .comportable__blog-title {
     font-weight: 700;
@@ -55,6 +106,12 @@
     line-height: 109.1%;
     color: #FFFFFF;
     margin-bottom: 21px;
+    @media (max-width: 1139px) {
+        font-size: 20px;
+    }
+    @media (max-width: 549px) {
+        font-size: 4vw;
+    }
 }
 .comportable__blog-text {
     font-family: 'Poppins', sans-serif;
@@ -64,9 +121,21 @@
     text-align: justify;
     color: rgba(255, 255, 255, 0.65);
     margin-bottom: 30px;
+    @media (max-width: 1139px) {
+        font-size: 12px;
+    }
+    @media (max-width: 549px) {
+        font-size: 2.5vw;
+    }
 }
 .comportable__blog-arrow {
     display: block;
+    @media (max-width: 1139px) {
+        width: 50px;
+    }
+    @media (max-width: 549px) {
+        width: 30px;
+    }
 }
 .comportable__blog-item_background {
     width: 276px;
@@ -75,6 +144,15 @@
     border-radius: 10px;
     margin-left: 45px;
     transition: 0.3s;
+    @media (max-width: 1139px) {
+        width: 230px;
+        height: 330px;
+    }
+    @media (max-width: 549px) {
+        width: 100%;
+        height: 320px;
+        margin-left: 25px;
+    }
 }
 .comportable__blog-item_background:hover {
     box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
@@ -85,6 +163,14 @@
 .comportable__blog-img_background {
     margin-top: 47px;
     margin-bottom: 27px;
+    @media (max-width: 1139px) {
+        width: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    @media (max-width: 549px) {
+        width: 30px;
+    }
 }
 .comportable__blog-title_background {
     font-weight: 700;
@@ -92,6 +178,12 @@
     line-height: 109.1%;
     color: #000000;
     margin-bottom: 21px;
+    @media (max-width: 1139px) {
+        font-size: 20px;
+    }
+    @media (max-width: 549px) {
+        font-size: 4vw;
+    }
 }
 .comportable__blog-text_background {
     font-family: 'Poppins', sans-serif;
@@ -101,7 +193,19 @@
     text-align: justify;
     color: #6C6C6C;
     margin-bottom: 30px;
+    @media (max-width: 1139px) {
+        font-size: 12px;
+    }
+    @media (max-width: 549px) {
+        font-size: 2.5vw;
+    }
 }
 .comportable__blog-arrow_background {
     display: block;
+    @media (max-width: 1139px) {
+        width: 50px;
+    }
+    @media (max-width: 549px) {
+        width: 30px;
+    }
 }
