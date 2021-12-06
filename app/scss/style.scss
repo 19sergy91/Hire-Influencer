@@ -48,7 +48,7 @@ body{
     max-width: 1049px;
     margin: 0px auto;
     padding: 0px 15px;
-    box-sizing: content-box
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -61,3 +61,5 @@ body{
 @import "partners.scss";
 @import "waiting.scss";
 @import "proposal.scss";
+@import "different.scss";
+@import "startusing.scss";

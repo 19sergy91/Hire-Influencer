@@ -1,0 +1,98 @@
+.different {
+    position: relative;
+    width: 100%;
+}
+.different__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 989px) {
+        flex-direction: column;
+    }
+}
+.different__info {
+    display: block;
+    margin-top: 139px;
+    @media (max-width: 989px) {
+        width: 100%;
+        text-align: center;
+        z-index: 2;
+        margin-top: 50px;
+    }
+}
+.different__info-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 109.1%;
+    color: #6F764D;
+    margin-bottom: 11px;
+}
+.different__info-title {
+    font-family: 'Rammetto One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 113.6%;
+    color: #000000;
+    margin-bottom: 19px;
+    @media (max-width: 799px) {
+        font-size: 30px;
+    }
+}
+.different__info-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;  
+    color: #6C6C6C;
+    margin-bottom: 35px;
+    @media (max-width: 799px) {
+        font-size: 12px;
+    }
+}
+.different__info-line {
+    display: inline-block;
+}
+.different__shedule-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 260px;
+    margin-top: 80px;
+    @media (max-width: 1249px) {
+        width: 500px;
+        height: 180px;
+        margin-top: 140px;
+    }
+    @media (max-width: 989px) {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+.different__shedule-shadow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 260px;
+    background: linear-gradient(270deg, #FFFFFF 7.36%, rgba(255, 255, 255, 0) 100%);
+    transition: all 0.3s ease 0s;
+    margin-top: 80px;
+    @media (max-width: 1249px) {
+        width: 500px;
+        height: 180px;
+        margin-top: 140px;
+    }
+    @media (max-width: 989px) {
+        width: 100%;
+        height: 100%;
+    }
+    @media (max-width: 549px) {
+        width: 100%;
+        margin: 0;
+    }
+}
+.different__shedule-shadow:hover {
+    opacity: 0;
+}
