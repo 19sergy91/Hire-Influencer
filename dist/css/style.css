@@ -64,6 +64,15 @@ body ._lock {
   box-sizing: border-box;
 }
 
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .header {
   width: 100%;
   padding: 23px 0px;
@@ -553,7 +562,7 @@ body ._lock {
   box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
-  background: #6b743e;
+  background: #5d6920;
   color: #000000;
 }
 
@@ -1986,4 +1995,379 @@ body ._lock {
   .startusing__item-img {
     width: 50%;
   }
+}
+
+.studies {
+  width: 100%;
+  margin-top: 120px;
+}
+@media (max-width: 799px) {
+  .studies {
+    margin-top: 50px;
+  }
+}
+
+.studies__container {
+  display: block;
+}
+
+.studies__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media (max-width: 799px) {
+  .studies__title {
+    margin-bottom: 30px;
+  }
+}
+
+.studies__title-text {
+  font-family: "Rammetto One", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 113.6%;
+  color: #000000;
+  margin-bottom: 7px;
+}
+@media (max-width: 799px) {
+  .studies__title-text {
+    font-size: 30px;
+  }
+}
+
+.studies__title-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 113.6%;
+  color: #6F764D;
+  transition: 0.3s;
+}
+@media (max-width: 799px) {
+  .studies__title-link {
+    font-size: 18px;
+  }
+}
+
+.studies__title-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: -4px -4px #6F764D, -4px -4px #6F764D;
+  border-radius: 5px;
+}
+
+.studies__title-arrow {
+  margin-left: 8px;
+}
+
+.studies__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 799px) {
+  .studies__bottom {
+    flex-direction: column-reverse;
+  }
+}
+
+.studies__info {
+  width: 330px;
+  display: block;
+}
+@media (max-width: 799px) {
+  .studies__info {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.studies__info-logo {
+  max-width: 100%;
+  margin-bottom: 26px;
+}
+
+.studies__info-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C6C6C;
+  margin-bottom: 17px;
+}
+@media (max-width: 799px) {
+  .studies__info-text {
+    font-size: 13px;
+  }
+}
+
+.studies__info-link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6F764D;
+  transition: 0.3s;
+}
+@media (max-width: 799px) {
+  .studies__info-link {
+    font-size: 13px;
+  }
+}
+
+.studies__info-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: -4px -4px #6F764D, -4px -4px #6F764D;
+  border-radius: 5px;
+}
+
+.studies__numbers {
+  width: 583px;
+  height: 176px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  margin-left: 30px;
+}
+@media (max-width: 799px) {
+  .studies__numbers {
+    margin-left: 0;
+    margin-bottom: 30px;
+    align-content: space-around;
+  }
+}
+@media (max-width: 549px) {
+  .studies__numbers {
+    width: 100%;
+  }
+}
+
+.studies__numbers-top {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 799px) {
+  .studies__numbers-top {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 549px) {
+  .studies__numbers-top {
+    padding: 5px;
+  }
+}
+
+.studies__numbers-bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 799px) {
+  .studies__numbers-bottom {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 549px) {
+  .studies__numbers-bottom {
+    padding: 5px;
+  }
+}
+
+.studies__numbers-num {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 109.1%;
+  text-align: center;
+  color: #6F764D;
+}
+@media (max-width: 799px) {
+  .studies__numbers-num {
+    font-size: 20px;
+  }
+}
+@media (max-width: 549px) {
+  .studies__numbers-num {
+    padding: 5px;
+  }
+}
+
+.studies__numbers-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 109.1%;
+  text-align: center;
+  color: #6C6C6C;
+}
+@media (max-width: 799px) {
+  .studies__numbers-text {
+    font-size: 13px;
+  }
+}
+
+.finding {
+  width: 100%;
+  margin-top: 120px;
+}
+
+.finding__container {
+  display: block;
+}
+
+.finding__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.finding__head-title {
+  font-family: "Rammetto One", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 109.1%;
+  color: #6F764D;
+}
+
+.finding__head-buttons {
+  width: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.finding__head-facebook {
+  width: 114px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(111, 118, 77, 0.17);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 109.1%;
+  font-feature-settings: "liga" off;
+  color: rgba(111, 118, 77, 0.69);
+  transition: 0.3s;
+}
+
+.finding__head-facebook:hover,
+:focus {
+  background: #6F764D;
+  color: #FFFFFF;
+}
+
+.finding__head-instagram {
+  width: 114px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(111, 118, 77, 0.17);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 109.1%;
+  font-feature-settings: "liga" off;
+  color: rgba(111, 118, 77, 0.69);
+  transition: 0.3s;
+}
+
+.finding__head-instagram:hover,
+:focus {
+  background: #6F764D;
+  color: #FFFFFF;
+}
+
+.finding__head-twitter {
+  width: 114px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(111, 118, 77, 0.17);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 109.1%;
+  font-feature-settings: "liga" off;
+  color: rgba(111, 118, 77, 0.69);
+  transition: 0.3s;
+}
+
+.finding__head-twitter:hover,
+:focus {
+  background: #6F764D;
+  color: #FFFFFF;
+}
+
+.finding__head-tiktok {
+  width: 114px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(111, 118, 77, 0.17);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 109.1%;
+  font-feature-settings: "liga" off;
+  color: rgba(111, 118, 77, 0.69);
+  transition: 0.3s;
+}
+
+.finding__head-tiktok:hover,
+:focus {
+  background: #6F764D;
+  color: #FFFFFF;
+}
+
+.finding__cards {
+  display: block;
+}
+
+.finding__cards-facebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finding__cards-link {
+  width: 240px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid rgba(111, 118, 77, 0.21);
+  border-radius: 5px;
+}
+
+.finding__cards-logo {
+  margin-bottom: 19px;
+}
+
+.finding__cards-name {
+  margin-bottom: 6px;
+}
+
+.finding__cards-from {
+  margin-bottom: 15px;
+}
+
+.finding__cards-stars {
+  margin-bottom: 32px;
+}
+
+.finding__cards-social {
+  display: flex;
+}
+
+.finding__cards-subscribers {
+  display: flex;
 }

@@ -1,0 +1,144 @@
+.finding {
+    width: 100%;
+    margin-top: 120px;
+}
+.finding__container {
+    display: block;
+}
+.finding__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.finding__head-title {
+    font-family: 'Rammetto One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 109.1%;
+    color: #6F764D;
+}
+.finding__head-buttons {
+    width: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.finding__head-facebook {
+    width: 114px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(111, 118, 77, 0.17);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 109.1%;
+    font-feature-settings: 'liga' off;
+    color: rgba(111, 118, 77, 0.69);
+    transition: 0.3s;
+}
+.finding__head-facebook:hover,
+:focus {
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-instagram {
+    width: 114px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(111, 118, 77, 0.17);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 109.1%;
+    font-feature-settings: 'liga' off;
+    color: rgba(111, 118, 77, 0.69);
+    transition: 0.3s;
+}
+.finding__head-instagram:hover,
+:focus {
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-twitter {
+    width: 114px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(111, 118, 77, 0.17);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 109.1%;
+    font-feature-settings: 'liga' off;
+    color: rgba(111, 118, 77, 0.69);
+    transition: 0.3s;
+}
+.finding__head-twitter:hover,
+:focus {
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-tiktok {
+    width: 114px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(111, 118, 77, 0.17);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 109.1%;
+    font-feature-settings: 'liga' off;
+    color: rgba(111, 118, 77, 0.69);
+    transition: 0.3s;
+}
+.finding__head-tiktok:hover,
+:focus {
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__cards {
+    display: block;
+}
+.finding__cards-facebook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.finding__cards-link {
+    width: 240px;
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(111, 118, 77, 0.21);
+    border-radius: 5px;
+}
+.finding__cards-logo {
+    margin-bottom: 19px;
+}
+.finding__cards-name {
+    margin-bottom: 6px;
+}
+.finding__cards-from {
+    margin-bottom: 15px;
+}
+.finding__cards-stars {
+    margin-bottom: 32px;
+}
+.finding__cards-social {
+    display: flex;
+}
+.finding__cards-subscribers {
+    display: flex;
+}
+.subscribers-img {
+}
+.subscribers__text {
+}
