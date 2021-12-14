@@ -1,0 +1,112 @@
+.footer {
+    width: 100%;
+    background: #000000;
+    margin-top: 120px;
+}
+.footer__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-top: 86px;
+    margin-bottom: 44px;
+    box-sizing: content-box;
+    @media (max-width: 799px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+.footer__head {
+    display: block;
+    @media (max-width: 799px) {
+        margin-bottom: 50px;
+    }
+}
+.footer__logo {
+    font-family: 'Rammetto One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 109.1%;
+    color: #FFFFFF;
+    @media (max-width: 799px) {
+        font-size: 30px;
+    }
+}
+.footer__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 26px;
+    @media (max-width: 799px) {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+.footer__navigation {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    @media (max-width: 799px) {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+.footer__search {
+    display: block;
+    padding: 0px 15px;
+}
+.footer__search-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+    @media (max-width: 799px) {
+        margin-bottom: 10px;
+    }
+}
+.footer__search-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer__search-link:hover {
+    text-decoration-color: rgb(255, 255, 255);
+    color: #FFFFFF;
+}
+.footer__info {
+    display: block;
+    padding: 0px 15px;
+}
+.footer__info-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+    @media (max-width: 799px) {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+.footer__info-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+    @media (max-width: 799px) {
+        font-size: 13px;
+    }
+}
+.footer__info-link:hover {
+    text-decoration-color: rgb(255, 255, 255);
+    color: #FFFFFF;
+}

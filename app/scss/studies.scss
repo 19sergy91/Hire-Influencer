@@ -7,6 +7,7 @@
 }
 .studies__container {
     display: block;
+    box-sizing: content-box;
 }
 .studies__title {
     display: flex;

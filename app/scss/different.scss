@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: content-box;
     @media (max-width: 989px) {
         flex-direction: column;
     }

@@ -30,3 +30,77 @@ $('.waiting__slide').slick({
         },
     ],
 });
+
+var clicked = false;
+
+$(".finding__head-facebook").click(function(){
+    var deg = clicked;  
+
+    $('.finding__cards').css({
+        "display":"block",
+        
+    });
+    $('.finding__cards-two').css({
+        "display":"none",
+    });
+    $('.finding__cards-three').css({
+        "display":"none",
+    });
+    $('.finding__cards-four').css({
+        "display":"none",
+    });
+    clicked = clicked;
+})
+
+$(".finding__head-instagram").click(function(){
+    var deg = clicked;  
+  
+    $('.finding__cards').css({
+      "display":"none",
+    });
+    $('.finding__cards-two').css({
+      "display":"block",
+    });
+    $('.finding__cards-three').css({
+        "display":"none",
+    });
+    $('.finding__cards-four').css({
+        "display":"none",
+    });
+    clicked = cliceked;
+})
+
+$(".finding__head-twitter").click(function(){
+    var deg = clicked;  
+  
+    $('.finding__cards').css({
+      "display":"none",
+    });
+    $('.finding__cards-two').css({
+      "display":"none",
+    });
+    $('.finding__cards-three').css({
+        "display":"block",
+    });
+    $('.finding__cards-four').css({
+        "display":"none",
+    });
+    clicked = cliceked;
+})
+$(".finding__head-tiktok").click(function(){
+    var deg = clicked;  
+  
+    $('.finding__cards').css({
+      "display":"none",
+    });
+    $('.finding__cards-two').css({
+      "display":"none",
+    });
+    $('.finding__cards-three').css({
+        "display":"none",
+    });
+    $('.finding__cards-four').css({
+        "display":"block",
+    });
+    clicked = cliceked;
+})

@@ -26,6 +26,7 @@
     height: 100%;
     margin: 0px auto;
     padding: 0px 15px;
+    box-sizing: content-box;
     @media (max-width: 989px) {
         justify-content: center;
     }

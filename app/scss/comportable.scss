@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: content-box;
     @media (max-width: 1139px) {
         justify-content: space-evenly;
     }

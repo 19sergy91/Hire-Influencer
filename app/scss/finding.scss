@@ -1,14 +1,23 @@
 .finding {
     width: 100%;
     margin-top: 120px;
+    @media (max-width: 799px) {
+        margin-top: 50px;
+    }
 }
 .finding__container {
     display: block;
+    box-sizing: content-box;
 }
 .finding__head {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 25px;
+    @media (max-width: 989px) {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 .finding__head-title {
     font-family: 'Rammetto One', cursive;
@@ -16,6 +25,12 @@
     font-size: 36px;
     line-height: 109.1%;
     color: #6F764D;
+    @media (max-width: 1139px) {
+        margin: 10px;
+    }
+    @media (max-width: 799px) {
+        font-size: 30px;
+    }
 }
 .finding__head-buttons {
     width: 510px;
@@ -23,6 +38,13 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    @media (max-width: 1139px) {
+        margin: 10px;
+    }
+    @media (max-width: 549px) {
+        width: 100%;
+        justify-content: center;
+    }
 }
 .finding__head-facebook {
     width: 114px;
@@ -37,9 +59,15 @@
     font-feature-settings: 'liga' off;
     color: rgba(111, 118, 77, 0.69);
     transition: 0.3s;
+    @media (max-width: 549px) {
+        margin: 10px;
+    }
 }
-.finding__head-facebook:hover,
-:focus {
+.finding__head-facebook:hover{
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-facebook:focus{
     background: #6F764D;
     color: #FFFFFF;
 }
@@ -56,9 +84,15 @@
     font-feature-settings: 'liga' off;
     color: rgba(111, 118, 77, 0.69);
     transition: 0.3s;
+    @media (max-width: 549px) {
+        margin: 10px;
+    }
 }
-.finding__head-instagram:hover,
-:focus {
+.finding__head-instagram:hover{
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-instagram:focus{
     background: #6F764D;
     color: #FFFFFF;
 }
@@ -75,9 +109,15 @@
     font-feature-settings: 'liga' off;
     color: rgba(111, 118, 77, 0.69);
     transition: 0.3s;
+    @media (max-width: 549px) {
+        margin: 10px;
+    }
 }
-.finding__head-twitter:hover,
-:focus {
+.finding__head-twitter:hover{
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-twitter:focus{
     background: #6F764D;
     color: #FFFFFF;
 }
@@ -94,19 +134,38 @@
     font-feature-settings: 'liga' off;
     color: rgba(111, 118, 77, 0.69);
     transition: 0.3s;
+    @media (max-width: 549px) {
+        margin: 10px;
+    }
 }
-.finding__head-tiktok:hover,
-:focus {
+.finding__head-tiktok:hover{
+    background: #6F764D;
+    color: #FFFFFF;
+}
+.finding__head-tiktok:focus{
     background: #6F764D;
     color: #FFFFFF;
 }
 .finding__cards {
     display: block;
 }
-.finding__cards-facebook {
+.finding__cards-two {
+    display: none;
+}
+.finding__cards-three {
+    display: none;
+}
+.finding__cards-four {
+    display: none;
+}
+.finding__cards-subscriber {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 989px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 .finding__cards-link {
     width: 240px;
@@ -116,17 +175,38 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background: #FFFFFF;
     border: 1px solid rgba(111, 118, 77, 0.21);
     border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    transition: 0.3s;
+    @media (max-width: 1139px) {
+        margin: 10px;
+    }
+}
+.finding__cards-link:hover {
+    box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    background: #EDEDED;
 }
 .finding__cards-logo {
     margin-bottom: 19px;
 }
 .finding__cards-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 111.4%;
+    color: #000000;
     margin-bottom: 6px;
 }
 .finding__cards-from {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 111.4%;
+    letter-spacing: 0.03em;
+    color: #6C6C6C;
     margin-bottom: 15px;
 }
 .finding__cards-stars {
@@ -135,10 +215,56 @@
 .finding__cards-social {
     display: flex;
 }
-.finding__cards-subscribers {
+.finding__cards-facebook{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 91px;
+    height: 35px;
+    background: #eff3ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.finding__cards-instagram {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 91px;
+    height: 35px;
+    background: #efecff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+.finding__cards-twitter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 91px;
+    height: 35px;
+    background: #eff3ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.finding__cards-tiktok{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 91px;
+    height: 35px;
+    background: #eff3ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    margin-right: 8px;
 }
 .subscribers-img {
+    display: block;
 }
 .subscribers__text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 111.4%;
+    letter-spacing: 0.03em;
+    color: #000000;
 }

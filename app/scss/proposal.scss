@@ -6,6 +6,7 @@
 .proposal__container {
     display: flex;
     align-items: center;
+    box-sizing: content-box;
     @media (max-width: 989px) {
         flex-direction: column-reverse;
     }
@@ -237,7 +238,7 @@
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
-    padding: 12px 51px 12px 15px;
+    padding: 12px 0px 12px 15px;
     cursor: pointer;
     transition: 0.3s;
     @media (max-width: 799px) {
@@ -295,7 +296,7 @@
     font-size: 13px;
     line-height: 16px;
     color: #6C6C6C;
-    padding: 12px 89px 12px 15px;
+    padding: 12px 0px 12px 15px;
     cursor: pointer;
     @media (max-width: 799px) {
         width: 100%;

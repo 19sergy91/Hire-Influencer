@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: content-box;
 }
 .header__logo-img {
     display: block;
