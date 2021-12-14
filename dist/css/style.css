@@ -1534,8 +1534,9 @@ button {
   }
 }
 
-.select:hover {
-  background: #5d6920;
+.select option {
+  background: #FFFFFF;
+  color: #6F764D;
 }
 
 .proposal__category-quantity {
@@ -1576,10 +1577,6 @@ button {
     height: 15px;
     right: 5;
   }
-}
-
-._active {
-  transform: rotate(180deg);
 }
 
 .quantity {

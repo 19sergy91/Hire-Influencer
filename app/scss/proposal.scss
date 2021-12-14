@@ -247,8 +247,9 @@
         font-size: 12px;
     }
 }
-.select:hover {
-    background: #5d6920;
+.select option {
+    background: #FFFFFF;
+    color: #6F764D;
 }
 .proposal__category-quantity {
     display: block;
@@ -281,9 +282,6 @@
         height: 15px;
         right: 5;
     }
-}
-._active {
-    transform: rotate(180deg);
 }
 .quantity {
     width: 100%;
